@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="Homepage.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -13,65 +13,67 @@
     />
   </head>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-lg border-bottom border-black"
-      style="background-color: #ff00a8; border-bottom: black"
-    >
-      <div class="container-fluid border-1" style="width: 1440px">
-        <div class="lg mx-5">
-          <a class="navbar-brand" href="#">BlogsUp</a>
+  <body style="height: 100vh">
+    <div class="par h-100" style="">
+      <nav
+        class="navbar d-flex justify-content-between py-4 navbar-expand-lg border-bottom border-black px-5"
+        style="border-bottom: black"
+      >
+        <div class="container-fluid border-1">
+          <h3 class="nav-item">
+            <a
+              class="nav-link active"
+              style="font-size: 30px"
+              aria-current="page"
+              href="#"
+              >Blog'sUp</a
+            >
+          </h3>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <div class="d-flex" style="margin-left: 550px">
+          <ul class="navbar-nav me-auto mx-1 mb-2 mb-lg-0">
+            <div class="d-flex">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Write</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Sign In</a
+                <a
+                  class="nav-link active d-flex gap-2"
+                  aria-current="page"
+                  href="#"
+                  >Sign <span>In</span></a
                 >
               </li>
+              <button
+                class="btn d-flex gap-2 bg-black text-white rounded-5"
+                type="submit"
+              >
+                Get<span> Started</span>
+              </button>
             </div>
           </ul>
-          <form class="d-flex" role="search" style="margin-right: 200px">
-            <button class="btn bg-black text-white rounded-5" type="submit">
-              Get Started
-            </button>
-          </form>
         </div>
+      </nav>
+      <div class="d-flex flex-column gap-3 p-5" style="">
+        <div class="d-flex">
+          <h1 style="font-weight: bolder; font-size: 100px">Stay curious.</h1>
+        </div>
+        <h5 class="mb-5" style="width: 550px; font-size: 30px">
+          Discover stories, thinking, and expertise from writers on any topic.
+        </h5>
+        <form class="d-flex" role="search">
+          <button class="btn bg-black text-white rounded-5 py-2 px-4" type="submit">
+            Start reading
+          </button>
+        </form>
       </div>
-    </nav>
-    <div class="par p-5" style="background-color: #ff00a8">
-      <div class="d-flex">
-        <h1>Stay curious.</h1>
-      </div>
-      <div class="mb-4" style="width: 300px">
-        Discover stories, thinking, and expertise from writers on any topic.
-      </div>
-      <form class="d-flex" role="search">
-        <button class="btn bg-black text-white rounded-5" type="submit">
-          Start reading
-        </button>
-      </form>
     </div>
-    <div class="trend p-4">
-      <div class="" style="height: 250px">
-        <h6 class="px-4 pt-4">Trending</h6>
+
+    <div class="trend p-4 border-bottom border-black">
+      <div class="" style="">
+        <h6 class="my-4 mx-4" style="font-size: 25px;">Trending</h6>
         <div class="d-flex row row-cols-3">
           <div class="col px-5 d-flex flex-column gap-1">
             <div class="img d-flex align-items-center gap-2">
@@ -82,17 +84,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/pexels-blitzboy-1040880.jpg"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -100,9 +102,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>Feb 28, 24</p>
             </div>
           </div>
 
@@ -115,17 +117,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/dragon.png"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -133,9 +135,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>jan 20, 24</p>
             </div>
           </div>
 
@@ -148,17 +150,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/pexels-8moments-1323550.jpg"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -166,9 +168,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>sep 15, 24</p>
             </div>
           </div>
 
@@ -181,17 +183,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/pexels-minan1398-906150.jpg"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -199,9 +201,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>Dec 1, 24</p>
             </div>
           </div>
 
@@ -214,17 +216,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/pexels-bess-hamiti-83687-36487.jpg"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -232,9 +234,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>Jan 17, 24</p>
             </div>
           </div>
           <div class="col px-5 d-flex flex-column gap-1">
@@ -246,17 +248,17 @@
                 <img
                   class="object-fit-cover position-absolute"
                   style="height: 100%; width: 100%"
-                  src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                  src="./image/pexels-sulimansallehi-1704488.jpg"
                   class="card-img-top"
                   alt="..."
                 />
               </div>
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="card-body">
-              <p class="card-text" style="font-size: small">
+              <p class="card-text" style="font-size: 16px;">
                 Querying a network of knowledge with llama-index-networks
               </p>
             </div>
@@ -264,9 +266,9 @@
               class="class="
               d-flex
               justify-content-between
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>Feb 12, 24</p>
             </div>
           </div>
         </div>
@@ -285,19 +287,61 @@
                 class="card-img-top"
                 alt="..."
               />
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="smallp">Querying a network of knowledge</div>
-            <div style="font-size: xx-small">
+            <div style="font-size: small">
               A fringe-dweller’s story about making
             </div>
             <div
               class="d-flex justify-content-between"
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>mar 20, 24</p>
+              <img
+                style="margin-right: 0"
+                height="10"
+                width="10"
+                src="./image/Clock.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div style="height: 100px; width: 150px">
+            <img
+              class="h-100 w-100 object-fit-cover px-2"
+              src="./image/pexels-minan1398-906150.jpg"
+              alt="error"
+            />
+          </div>
+        </div>
+
+        <div class="d-flex p-2" style="">
+          <div class="sl d-flex flex-column gap-1">
+            <div class="d-flex align-items-center gap-2">
+              <img
+                class="object-fit-cover rounded-5"
+                height="20px"
+                width="20px"
+                src="./image/dragon.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title" style="font-size: small">
+                Admiral Cloudberg
+              </h5>
+            </div>
+            <div class="smallp">Querying a network of knowledge</div>
+            <div style="font-size: small">
+              A fringe-dweller’s story about making
+            </div>
+            <div
+              class="d-flex justify-content-between"
+              style="font-size: small"
+            >
+              <p>Apr 28, 24</p>
               <img
                 style="margin-right: 0"
                 height="10"
@@ -323,23 +367,23 @@
                 class="object-fit-cover rounded-5"
                 height="20px"
                 width="20px"
-                src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                src="./image/spiderman.png"
                 class="card-img-top"
                 alt="..."
               />
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="smallp">Querying a network of knowledge</div>
-            <div style="font-size: xx-small">
+            <div style="font-size: small">
               A fringe-dweller’s story about making
             </div>
             <div
               class="d-flex justify-content-between"
-              style="font-size: xx-small"
+              style="font-size: small"
             >
-              Feb 28, 24
+              <p>may 22, 24</p>
               <img
                 style="margin-right: 0"
                 height="10"
@@ -352,7 +396,7 @@
           <div style="height: 100px; width: 150px">
             <img
               class="h-100 w-100 object-fit-cover px-2"
-              src="./image/pexels-bess-hamiti-83687-36487.jpg"
+              src="./image/pexels-nout-gons-80280-248159.jpg"
               alt="error"
             />
           </div>
@@ -365,21 +409,21 @@
                 class="object-fit-cover rounded-5"
                 height="20px"
                 width="20px"
-                src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
+                src="./image/pexels-blitzboy-1040880.jpg"
                 class="card-img-top"
                 alt="..."
               />
-              <h5 class="card-title" style="font-size: xx-small">
+              <h5 class="card-title" style="font-size: small">
                 Admiral Cloudberg
               </h5>
             </div>
             <div class="smallp">Querying a network of knowledge</div>
-            <div style="font-size: xx-small">
+            <div style="font-size: small">
               A fringe-dweller’s story about making
             </div>
             <div
               class="d-flex justify-content-between"
-              style="font-size: xx-small"
+              style="font-size: small"
             >
               Feb 28, 24
               <img
@@ -394,62 +438,68 @@
           <div style="height: 100px; width: 150px">
             <img
               class="h-100 w-100 object-fit-cover px-2"
-              src="./image/pexels-bess-hamiti-83687-36487.jpg"
-              alt="error"
-            />
-          </div>
-        </div>
-
-        <div class="d-flex p-2" style="">
-          <div class="sl d-flex flex-column gap-1">
-            <div class="d-flex align-items-center gap-2">
-              <img
-                class="object-fit-cover rounded-5"
-                height="20px"
-                width="20px"
-                src="./image/Fast Food Restaurant Promotion Flyer PSD - PSD Zone.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <h5 class="card-title" style="font-size: xx-small">
-                Admiral Cloudberg
-              </h5>
-            </div>
-            <div class="smallp">Querying a network of knowledge</div>
-            <div style="font-size: xx-small">
-              A fringe-dweller’s story about making
-            </div>
-            <div
-              class="d-flex justify-content-between"
-              style="font-size: xx-small"
-            >
-              Feb 28, 24
-              <img
-                style="margin-right: 0"
-                height="10"
-                width="10"
-                src="./image/Clock.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div style="height: 100px; width: 150px">
-            <img
-              class="h-100 w-100 object-fit-cover px-2"
-              src="./image/pexels-bess-hamiti-83687-36487.jpg"
+              src="./image/pexels-singkham-178541-1108572.jpg"
               alt="error"
             />
           </div>
         </div>
       </div>
       <div class="rightside" style="flex: 1">
-        <h2 style="font-size: smaller">Discover more</h2>
+        <h2 class="mt-5 mb-4" style="font-size: 16px;er">Discover more</h2>
         <div class="rounded-5 border-1 border-dark" style="">
-          <div class="rp">Programming</div>
-          <div class="rp">Technology</div>
-          <div class="rp">Politics</div>
-          <div class="rp">Machine Learning</div>
-          <div class="rp">Productivity</div>
+          <div
+            class="rp d-inline"
+            style="
+              background-color: #f3f4f6;
+              padding: 10px;
+              border-radius: 30px;
+            "
+          >
+            Programming
+          </div>
+          <div
+            class="rp d-inline"
+            style="
+              background-color: #f3f4f6;
+              padding: 10px;
+              border-radius: 30px;
+            "
+          >
+            Technology
+          </div>
+          <div
+            class="rp d-inline"
+            style="
+              background-color: #f3f4f6;
+              padding: 10px;
+              border-radius: 30px;
+            "
+          >
+            Politics
+          </div>
+          <div class="mt-4 mb-4">
+            <div
+              class="rp d-inline"
+              style="
+                background-color: #f3f4f6;
+                padding: 10px;
+                border-radius: 30px;
+              "
+            >
+              Machine Learning
+            </div>
+            <div
+              class="rp d-inline"
+              style="
+                background-color: #f3f4f6;
+                padding: 10px;
+                border-radius: 30px;
+              "
+            >
+              Productivity
+            </div>
+          </div>
+          <a class="" style="color: blue" href="">See more Topics</a>
         </div>
       </div>
     </div>
